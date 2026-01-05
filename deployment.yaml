@@ -17,6 +17,6 @@ spec:
         - name: ecr-secret
       containers:
         - name: helloworld
-          image: 898774460249.dkr.ecr.ap-south-1.amazonaws.com/demo-repo:latest
+          image: image: 898774460249.dkr.ecr.ap-south-1.amazonaws.com/demo-repo:v1
           ports:
             - containerPort: 8080
